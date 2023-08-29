@@ -44,7 +44,8 @@ public final class MaterialTextView: UIView {
 	
 	public var placeholderAnimationDuration: Double = 0.15
 	public var lineAnimationDuration: Double = 0.1
-	
+    public var key: String = ""
+
 	public var viewModel: MaterialTextViewModel = .init(style: .defaultStyle) {
 		didSet {
 			didSetViewModel()
